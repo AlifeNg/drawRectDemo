@@ -15,6 +15,9 @@
 		08695FAC1CE07C49000C7CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08695FAA1CE07C49000C7CE0 /* LaunchScreen.storyboard */; };
 		08695FB71CE07C49000C7CE0 /* drawRectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08695FB61CE07C49000C7CE0 /* drawRectDemoTests.m */; };
 		08695FC21CE07C49000C7CE0 /* drawRectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08695FC11CE07C49000C7CE0 /* drawRectDemoUITests.m */; };
+		08695FD11CE07C62000C7CE0 /* DrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08695FD01CE07C62000C7CE0 /* DrawRectView.m */; };
+		08695FD41CE0822F000C7CE0 /* BaseDrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 08695FD31CE0822F000C7CE0 /* BaseDrawRect.m */; };
+		08695FD71CE08AB5000C7CE0 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08695FD61CE08AB5000C7CE0 /* SecondController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		08695FBD1CE07C49000C7CE0 /* drawRectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawRectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08695FC11CE07C49000C7CE0 /* drawRectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawRectDemoUITests.m; sourceTree = "<group>"; };
 		08695FC31CE07C49000C7CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08695FCF1CE07C62000C7CE0 /* DrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectView.h; sourceTree = "<group>"; };
+		08695FD01CE07C62000C7CE0 /* DrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectView.m; sourceTree = "<group>"; };
+		08695FD21CE0822F000C7CE0 /* BaseDrawRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDrawRect.h; sourceTree = "<group>"; };
+		08695FD31CE0822F000C7CE0 /* BaseDrawRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDrawRect.m; sourceTree = "<group>"; };
+		08695FD51CE08AB5000C7CE0 /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		08695FD61CE08AB5000C7CE0 /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				08695FA01CE07C49000C7CE0 /* AppDelegate.m */,
 				08695FA21CE07C49000C7CE0 /* ViewController.h */,
 				08695FA31CE07C49000C7CE0 /* ViewController.m */,
+				08695FD51CE08AB5000C7CE0 /* SecondController.h */,
+				08695FD61CE08AB5000C7CE0 /* SecondController.m */,
+				08695FD21CE0822F000C7CE0 /* BaseDrawRect.h */,
+				08695FD31CE0822F000C7CE0 /* BaseDrawRect.m */,
+				08695FCF1CE07C62000C7CE0 /* DrawRectView.h */,
+				08695FD01CE07C62000C7CE0 /* DrawRectView.m */,
 				08695FA51CE07C49000C7CE0 /* Main.storyboard */,
 				08695FA81CE07C49000C7CE0 /* Assets.xcassets */,
 				08695FAA1CE07C49000C7CE0 /* LaunchScreen.storyboard */,
@@ -270,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08695FD11CE07C62000C7CE0 /* DrawRectView.m in Sources */,
+				08695FD41CE0822F000C7CE0 /* BaseDrawRect.m in Sources */,
 				08695FA41CE07C49000C7CE0 /* ViewController.m in Sources */,
+				08695FD71CE08AB5000C7CE0 /* SecondController.m in Sources */,
 				08695FA11CE07C49000C7CE0 /* AppDelegate.m in Sources */,
 				08695F9E1CE07C49000C7CE0 /* main.m in Sources */,
 			);

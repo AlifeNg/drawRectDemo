@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "BaseDrawRect.h"
+#import "SecondController.h"
 
 @interface ViewController ()
 
@@ -17,11 +19,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    /**
+     *  基础画画
+     */
+    BaseDrawRect *view = [[BaseDrawRect alloc]initWithFrame:self.view.bounds];
+    view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:view];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    SecondController *vc = [[SecondController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
